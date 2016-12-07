@@ -1,0 +1,147 @@
+<!--
+Authors:
+  Akash AN, BT Somaiah, Shruti Nair
+  9th September'16
+
+-->
+
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Health Book</title>
+  <link href="http://fonts.googleapis.com/css?family=Ubuntu+Condensed:400,400" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.css"/>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery.mobile-1.4.2.min.js"></script>
+  <script type="text/javascript" src="js/CloudantJS.js"></script>
+  <script type="text/javascript" src="js/Cloudant.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="cordova.js"></script>
+</head>
+<body>
+    <div data-role="page" id="page1" class="center-wrapper">
+      <link rel="stylesheet" href="css/index-grid.css">
+    <div data-role="content" class="body page-index clearfix"  >
+         <div class="element element-6"></div>
+         <div class="element element-7"></div>
+         <header class="_text _text-5">Health Book</header>
+         <div class="element element-9"></div>
+         <header class="_text _text-7">Sign In</header>
+         <input class="_input _input-8" id="username" type="text" placeholder="Enter username">
+         <input class="_input _input-10" id="password" type="password" placeholder="Enter password">
+         <button id='login' class="_button _button-5">Log In</button>
+         <header class="_text _text-11">Not Yet A Member?</header>
+         <button id='signup' class="_button _button-11">Sign Up</button>
+    </div>
+    <div data-role="footer">
+    
+    </div>
+  </div>
+   <div data-role="page" id="reg" class="center-wrapper" style="display: none">
+      <link rel="stylesheet" href="css/signup-grid.css">
+    <div data-role="content" class="body page-index clearfix">
+        <div class="element element-3"></div>
+        <div class="element element-4"></div>
+        <div class="element element-5"></div>
+        <header class="_text _text-3">Register</header>
+        <input class="_input _input-2" id="uname" type="text" placeholder="Username">
+        <input class="_input _input-4" id="pass" type="password" placeholder="Password">
+        <input class="_input _input-5" id="cpass" type="password" placeholder="Confirm password">
+        <input class="_input _input-7" id="name" type="text" placeholder="Name">
+        <header class="_text _text-12">Date of Birth:</header>
+        <input class="_input _input-9" id="dob" type="date" placeholder="DOB">
+        <select class="_input _input-12" id="gender" type="text" placeholder="Gender">
+           <option value=" "> </option>
+           <option value="male">Male</option>
+           <option value="female">Female</option>
+          
+        </select>
+        
+        <input class="_input _input-14" id="email" type="email" placeholder="Email">
+        <button id='register' class="_button _button-10">Register</button>
+    </div>
+    <div data-role="footer">
+    
+    </div>
+  </div>
+
+
+   <div data-role="page" id="page3" class="center-wrapper" style="display: none">
+      <link rel="stylesheet" href="css/welcome-grid.css">
+    <div data-role="content" class="body page-index clearfix">
+          <div class="element element-1"></div>
+          <div class="element element-2"></div>
+          <header class="_text _text-1">My Health Book</header>
+          <button id="logout1" class="_button _button-1">Logout</button>
+          <header class="_text _text-2">Name:</header>
+          <input class="_input _input-1" name="n" type="text" id="name_txt">
+          <header class="_text _text-4">DOB:</header>
+          <input class="_input _input-3" name="d" type="text" id="dob_txt">
+          <header class="_text _text-6">Email:</header>
+          <input class="_input _input-6" name="e" type="email" id="email_txt">
+          <button id="myhistory" class="_button _button-6">My Appointment History</button>
+          <button id="bookapp" class="_button _button-9">Book a new appointment</button>
+    </div>
+    <div data-role="footer">
+    
+    </div>
+  </div>
+
+   <div data-role="page" id="history" class="center-wrapper" style="display: none">
+       <link rel="stylesheet" href="css/history-grid.css">
+    <div data-role="content" class="body page-index clearfix">
+         <div class="element element-11"></div>
+         <div class="element element-12"></div>
+         <button id="back1" class="_button _button-3"></button>
+         <header class="_text _text-10">My Appointment History</header>
+         <button id="logout2" class="_button _button-7">Logout</button>
+         <header class="_text _text-13">Doctor</header>
+         <header class="_text _text-14">Details</header>
+
+          <ol class="_text _text-15" id="history_list">
+            
+          </ol>
+    </div>
+    <div data-role="footer">
+    
+    </div>
+  </div>
+
+     <div data-role="page" id="page4" class="center-wrapper" style="display: none">
+      <link rel="stylesheet" href="css/book-grid.css">
+    <div data-role="content" class="body page-index clearfix">
+          <div class="element element-8"></div>
+          <div class="element element-10"></div>
+          <button id="back2" class="_button _button-2"></button>
+          <header class="_text _text-8">Book Appointment</header>
+          <button onClick="location.href='#page1';" id="logout3" class="_button _button-4">Logout</button>
+          <input id="spec" class="_input _input-13" type="search" placeholder="Enter specialization">
+          <button id="search" class="_button _button-8">Search By Specialization</button>
+        
+         <header id="doc_name" class="_text _text-17" style="display: none">Doctor</header>
+         <header id="doc_ex" class="_text _text-18" style="display: none">Experience</header>
+          <ol class="_text _text-16" id="results">
+            
+          </ol>
+          
+          
+          <header id="dat_show" class="_text _text-19" style="display: none">Choose date and time of Appointment:</header>
+
+          <input class="_input _input-15" id="timeapp" type="time" style="display: none">      
+          <input class="_input _input-14" id="dateapp" type="date" style="display: none">   
+          <button class="_button _button-9" id="book" style="display: none">Book Appointment</button>
+          
+          
+    </div>
+    <div data-role="footer">
+    
+    </div>
+   
+  </div>
+</body>
+</html>

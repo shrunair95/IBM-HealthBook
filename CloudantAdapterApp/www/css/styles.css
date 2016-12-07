@@ -1,0 +1,683 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1.563em/1.38 'Ubuntu Condensed';
+  color: rgb(246, 244, 244);
+}
+
+.page-book {
+  color: rgb(240, 225, 225);
+}
+
+.page-history,
+.page-index,
+.page-signup,
+.page-welcome {
+  color: rgb(246, 244, 244);
+}
+
+.element {
+  position: relative;
+}
+
+._button {
+  display: block;
+  position: relative;
+  border-radius: 3px;
+  text-align: center;
+}
+
+._input {
+  display: block;
+  position: relative;
+  padding: 0 10px;
+}
+
+._text {
+  position: relative;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.element-1 {
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 625px;
+  margin-top: -8px;
+  background-color: rgb(8, 78, 103);
+}
+
+.element-10 {
+  float: left;
+  clear: both;
+  z-index: 1;
+  width: 100%;
+  height: 64px;
+  margin-top: -587px;
+  background-color: rgb(29, 120, 106);
+}
+
+.element-11 {
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 688px;
+  background-color: rgb(8, 78, 103);
+}
+
+.element-12 {
+  float: left;
+  clear: both;
+  z-index: 1;
+  width: 100%;
+  height: 68px;
+  margin-top: -668px;
+  background-color: rgb(29, 120, 106);
+}
+
+.element-2 {
+  float: left;
+  clear: both;
+  z-index: 1;
+  width: 100%;
+  height: 64px;
+  margin-top: -597px;
+  background-color: rgb(29, 120, 106);
+}
+
+.element-3 {
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 1683px;
+  margin-top: -990px;
+  background-color: rgb(8, 78, 103);
+}
+
+.element-4 {
+  float: left;
+  clear: both;
+  z-index: 2;
+  width: 90.9166666666%;
+  height: 659px;
+  margin: -1410px 0 0 4.58073%;
+  background-color: rgb(29, 120, 106);
+}
+
+.element-5 {
+  float: left;
+  z-index: 1;
+  width: 89.6666666666%;
+  height: 639px;
+  margin: -677px 0 0 5.16667%;
+  background-color: rgb(29, 120, 106);
+}
+
+.element-6 {
+  float: left;
+  z-index: 8;
+  width: 20.3333333333%;
+  height: 135px;
+  margin: 5px 0 0 18.33073%;
+  background: url('../images/doctor.png') rgb(29, 120, 106);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
+.element-7 {
+  float: right;
+  clear: both;
+  z-index: 0;
+  width: 100%;
+  height: 734px;
+  margin-top: -140px;
+  background-color: rgb(8, 78, 103);
+}
+
+.element-8 {
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 617px;
+  background-color: rgb(8, 78, 103);
+}
+
+.element-9 {
+  float: left;
+  clear: both;
+  z-index: 1;
+  width: 89.6666666666%;
+  height: 610px;
+  margin: -733px 0 0 5.16667%;
+  background-color: rgb(29, 120, 106);
+}
+
+._button-1 {
+  float: right;
+  clear: both;
+  z-index: 3;
+  width: 14%;
+  height: 40px;
+  margin: -587px 2% 0 0;
+  background-color: rgb(27, 150, 132);
+  font-size: 0.4em;
+  color: rgb(240, 225, 225);
+}
+
+._button-10 {
+  float: left;
+  z-index: 4;
+  width: 43.8333333333%;
+  height: 40px;
+  margin: -163px 0 0 27.36589%;
+  background-color: rgb(27, 150, 132);
+  font-size: 0.6em;
+  color: rgb(240, 225, 225);
+}
+
+._button-11 {
+  float: left;
+  z-index: 5;
+  width: 42.3333333333%;
+  height: 40px;
+  margin: -169px 0 0 28.79948%;
+  background-color: rgb(27, 150, 132);
+  font-size: 0.6em;
+  color: rgb(240, 225, 225);
+}
+
+._button-2 {
+  float: left;
+  z-index: 6;
+  width: 4.9166666666%;
+  height: 49px;
+  margin: -577px 0 0 1%;
+  background: url('../images/go_next_rtl.png') rgb(29, 120, 106);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: left top;
+  font-size: 0.64em;
+  color: rgb(0, 0, 0);
+}
+
+._button-3 {
+  float: left;
+  z-index: 4;
+  width: 4.9166666666%;
+  height: 49px;
+  margin: -658px 0 0 1.03125%;
+  background: url('../images/go_next_rtl.png') rgb(29, 120, 106);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: left top;
+  font-size: 0.64em;
+  color: rgb(0, 0, 0);
+}
+
+._button-4 {
+  float: right;
+  z-index: 3;
+  width: 14%;
+  height: 40px;
+  margin: -577px 2% 0 0;
+  background-color: rgb(27, 150, 132);
+  font-size: 0.4em;
+  color: rgb(240, 225, 225);
+}
+
+._button-5 {
+  float: right;
+  z-index: 5;
+  width: 42.3333333333%;
+  height: 40px;
+  margin: -260px 28.86589% 0 0;
+  background-color: rgb(27, 150, 132);
+  font-size: 0.6em;
+  color: rgb(240, 225, 225);
+}
+
+
+._button-6 {
+  float: right;
+  z-index: 4;
+  width: 66.3333333333%;
+  height: 39px;
+  margin: -195px 16.83073% 0 0;
+  background-color: rgb(27, 150, 132);
+  font-size: 0.6em;
+  color: rgb(240, 225, 225);
+}
+
+._button-7 {
+  float: right;
+  clear: both;
+  z-index: 3;
+  width: 14.8333333333%;
+  height: 40px;
+  margin: -658px 2% 0 0;
+  background-color: rgb(27, 150, 132);
+  font-size: 0.4em;
+  color: rgb(240, 225, 225);
+}
+
+._button-8 {
+  float: right;
+  clear: both;
+  z-index: 5;
+  width: 52.8333333333%;
+  height: 39px;
+  margin: -416px 23.58073% 0 0;
+  background-color: rgb(27, 150, 132);
+  font-size: 0.6em;
+  color: rgb(240, 225, 225);
+}
+
+._button-9 {
+  float: left;
+  clear: both;
+  z-index: 9;
+  width: 66.3333333333%;
+  height: 39px;
+  margin: -115px 0 0 16.83203%;
+  background-color: rgb(27, 150, 132);
+  font-size: 0.6em;
+  color: rgb(240, 225, 225);
+}
+
+._input-1 {
+  float: left;
+  z-index: 10;
+  width: 50.2666666666%;
+  height: 38px;
+  margin: -499px 0 0 39.9492199999%;
+  background-color: rgb(8, 78, 103);
+  font-size: 0.7em;
+  color: rgb(246, 246, 246);
+}
+
+._input-10 {
+  float: left;
+  clear: both;
+  z-index: 4;
+  width: 66.3333333333%;
+  height: 24px;
+  margin: -363px 0 0 16.83594%;
+  border-radius: 15px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.52em;
+  color: rgb(0, 0, 0);
+}
+
+._input-11 {
+  float: left;
+  z-index: 13;
+  width: 18.265625%;
+  height: 38px;
+  margin: -338px 0 0 43.9492199999%;
+  background-color: rgb(8, 78, 103);
+  font-size: 1.2em;
+  color: rgb(246, 246, 246);
+}
+
+._input-12 {
+  float: left;
+  z-index: 8;
+  width: 66.3333333333%;
+  height: 24px;
+  margin: -283px 0 0 16.83073%;
+  border-radius: 15px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.52em;
+  color: rgb(0, 0, 0);
+}
+
+._input-13 {
+  float: right;
+  clear: both;
+  z-index: 4;
+  width: 65.5%;
+  height: 28px;
+  margin: -478px 17.25% 0 0;
+  border-radius: 31px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.5em;
+  color: rgb(0, 0, 0);
+}
+
+._input-14 {
+  float: left;
+  z-index: 9;
+  width: 66.3333333333%;
+  height: 24px;
+  margin: -220px 0 0 16.83073%;
+  border-radius: 15px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.52em;
+  color: rgb(0, 0, 0);
+}
+
+._input-15 {
+  float: left;
+  z-index: 9;
+  width: 66.3333333333%;
+  height: 24px;
+  margin: -170px 0 0 16.83073%;
+  border-radius: 15px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.52em;
+  color: rgb(0, 0, 0);
+}
+
+
+._input-2 {
+  float: right;
+  z-index: 3;
+  width: 66.3333333333%;
+  height: 24px;
+  margin: -563px 16.86719% 0 0;
+  border-radius: 15px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.52em;
+  color: rgb(0, 0, 0);
+}
+
+._input-3 {
+  float: left;
+  z-index: 11;
+  width: 50.265625%;
+  height: 38px;
+  margin: -449px 0 0 39.9492199999%;
+  background-color: rgb(8, 78, 103);
+  font-size: 0.7em;
+  color: rgb(246, 246, 246);
+}
+
+._input-4 {
+  float: left;
+  clear: both;
+  z-index: 6;
+  width: 66.3333333333%;
+  height: 24px;
+  margin: -510px 0 0 16.79948%;
+  border-radius: 15px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.52em;
+  color: rgb(0, 0, 0);
+}
+
+._input-5 {
+  float: left;
+  z-index: 7;
+  width: 66.3333333333%;
+  height: 24px;
+  margin: -453px 0 0 16.83073%;
+  border-radius: 15px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.52em;
+  color: rgb(0, 0, 0);
+}
+
+._input-6 {
+  float: left;
+  z-index: 12;
+  width: 50.265625%;
+  height: 38px;
+  margin: -399px 0 0 39.9492199999%;
+  background-color: rgb(8, 78, 103);
+  font-size: 0.7em;
+  color: rgb(246, 246, 246);
+}
+
+._input-7 {
+  float: left;
+  z-index: 11;
+  width: 66.3333333333%;
+  height: 24px;
+  margin: -396px 0 0 16.79948%;
+  border-radius: 15px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.52em;
+  color: rgb(0, 0, 0);
+}
+
+._input-8 {
+  float: right;
+  z-index: 3;
+  width: 66.3333333333%;
+  height: 24px;
+  margin: -427px 16.83073% 0 0;
+  border-radius: 15px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.52em;
+  color: rgb(0, 0, 0);
+}
+
+._input-9 {
+  float: left;
+  z-index: 10;
+  width: 66.3333333333%;
+  height: 24px;
+  margin: -339px 0 0 16.79948%;
+  border-radius: 15px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.52em;
+  color: rgb(0, 0, 0);
+}
+
+._text-1 {
+  float: right;
+  z-index: 2;
+  width: 57.4999999999%;
+  height: 50px;
+  margin: -592px 21.25% 0 0;
+  background-color: rgb(29, 120, 106);
+  font-size: 0.9em;
+  color: rgb(246, 244, 244);
+}
+
+._text-10 {
+  float: right;
+  z-index: 2;
+  width: 57.4999999999%;
+  height: 50px;
+  margin: -658px 21.25% 0 0;
+  background-color: rgb(29, 120, 106);
+  font-size: 0.9em;
+  color: rgb(246, 244, 244);
+}
+
+._text-11 {
+  float: left;
+  clear: both;
+  z-index: 6;
+  width: 28.8333333333%;
+  height: 18px;
+  margin: -218px 0 0 35.59896%;
+  background-color: rgb(29, 120, 106);
+  font-size: 0.64em;
+  color: rgb(0, 0, 0);
+}
+
+._text-12 {
+  float: right;
+  z-index: 5;
+  width: 25.6666666%;
+  height: 17px;
+  margin: -365px 60.25948% 0 0;
+  background-color: rgb(29, 120, 106);
+  font-size: 0.60em;
+  color: rgb(246, 244, 244);
+}
+
+._text-13 {
+  float: right;
+  z-index: 4;
+  width: 15.5%;
+  height: 38px;
+  margin: -550px 65.91667% 0 0;
+  background-color: rgb(8, 78, 103);
+  font-size: 1.0em;
+  color: rgb(246, 244, 244);
+}
+
+
+._text-14 {
+  float: right;
+  z-index: 4;
+  width: 15.5%;
+  height: 38px;
+  margin: -550px 23.89974% 0 0;
+  background-color: rgb(8, 78, 103);
+  font-size: 1.0em;
+  color: rgb(246, 244, 244);
+}
+
+._text-15 {
+
+  float: left;
+  width: 130.7672281776%;
+  height: 268px;
+  margin: -510px 0 0 -14.33844%;
+  background-color: rgb(8, 78, 103);
+  font-size: 0.8em;
+  color: rgb(240, 225, 225);
+}
+
+
+
+._text-16 {
+
+  float: left;
+  width: 99.7672281776%;
+  height: 268px;
+  margin: -330px 0 0 19.33844%;
+  background-color: rgb(8, 78, 103);
+  font-size: 0.8em;
+  color: rgb(240, 225, 225);
+}
+
+._text-17 {
+  float: right;
+  z-index: 4;
+  width: 15.5%;
+  height: 38px;
+  margin: -370px 65.91667% 0 0;
+  background-color: rgb(8, 78, 103);
+  font-size: 1.0em;
+  color: rgb(246, 244, 244);
+}
+
+
+._text-18 {
+  float: right;
+  z-index: 4;
+  width: 15.5%;
+  height: 38px;
+  margin: -370px 25.89974% 0 0;
+  background-color: rgb(8, 78, 103);
+  font-size: 1.0em;
+  color: rgb(246, 244, 244);
+}
+
+._text-19 {
+  
+  float: left;
+  z-index: 6;
+  width: 66.3333333333%;
+  height: 24px;
+  margin: -245px 0 0 16.83073%;
+  background-color: rgb(8, 78, 103);
+  font-size: 0.6em;
+  color: rgb(246, 244, 244);
+}
+
+._text-2 {
+  float: left;
+  clear: both;
+  z-index: 5;
+  width: 18.9166666666%;
+  height: 50px;
+  margin: -493px 0 0 23.58073%;
+  background-color: rgb(8, 78, 103);
+  font-size: 0.7em;
+  color: rgb(246, 244, 244);
+}
+
+._text-3 {
+  float: left;
+  z-index: 5;
+  width: 42.3333333333%;
+  height: 50px;
+  margin: -637px 0 0 28.79948%;
+  background-color: rgb(29, 120, 106);
+  font-size: 1.1em;
+  color: rgb(246, 244, 244);
+}
+
+._text-4 {
+  float: left;
+  z-index: 6;
+  width: 18.5%;
+  height: 50px;
+  margin: -443px 0 0 23.58073%;
+  background-color: rgb(8, 78, 103);
+  font-size: 0.7em;
+  color: rgb(246, 244, 244);
+}
+
+._text-5 {
+  float: right;
+  clear: both;
+  z-index: 9;
+  width: 52.9%;
+  height: 56px;
+  margin: -657px 25.58% 0 0;
+  background-color: rgb(29, 120, 106);
+  font-size: 1.4em;
+  color: rgb(246, 244, 244);
+}
+
+._text-6 {
+  float: left;
+  z-index: 7;
+  width: 18.5833333333%;
+  height: 50px;
+  margin: -393px 0 0 23.58073%;
+  background-color: rgb(8, 78, 103);
+  font-size: 0.7em;
+  color: rgb(246, 244, 244);
+}
+
+._text-7 {
+  float: left;
+  z-index: 7;
+  width: 28.3333333333%;
+  height: 50px;
+  margin: -541px 0 0 34.46615%;
+  background-color: rgb(29, 120, 106);
+  font-size: 1.4em;
+  color: rgb(246, 244, 244);
+}
+
+._text-8 {
+  float: left;
+  z-index: 2;
+  width: 57.4999999999%;
+  height: 50px;
+  margin: -577px 0 0 21.25%;
+  background-color: rgb(29, 120, 106);
+  font-size: 0.9em;
+  color: rgb(246, 244, 244);
+}
+
+._text-9 {
+  float: left;
+  z-index: 8;
+  width: 19.0833333333%;
+  height: 50px;
+  margin: -343px 0 0 23.58073%;
+  background-color: rgb(8, 78, 103);
+  font-size: 1.2em;
+  color: rgb(246, 244, 244);
+}
